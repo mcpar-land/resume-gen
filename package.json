@@ -1,0 +1,19 @@
+{
+	"name": "resume-md",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "node src/index.js",
+		"watch": "nodemon src/index.js"
+	},
+	"dependencies": {
+		"dotenv-flow": "^3.2.0",
+		"handlebars": "^4.7.6",
+		"markdown-it": "^11.0.0",
+		"node-sass": "^4.14.1",
+		"nodemon": "^2.0.4",
+		"pdf-puppeteer": "^1.1.10",
+		"prettier": "^2.0.5"
+	}
+}

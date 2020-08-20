@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@import 'header.scss';
+
+html,
+body {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-size: 10pt;
+}
+
+body {
+	padding: 10mm;
+}
+
+@media screen {
+	body {
+		outline: 1px solid black;
+		width: 216mm;
+		height: 279mm;
+	}
+}
+
+@for $i from 1 through 6 {
+	h#{$i} {
+		font-family: 'Overpass Mono';
+		margin: 0;
+	}
+}
+
+body > h1,
+body > div {
+	margin-top: 3mm;
+}
+
+p,
+ul {
+	margin: 0;
+}
+
+p {
+	font-style: italic;
+}
+
+p:not(:first-of-type) {
+	margin-top: 2mm;
+}
+
+ul {
+	padding-left: 2em;
+}
+
+a {
+	color: black;
+}
+
+h1 + ul {
+	columns: 2;
+}
+
+.two-columns {
+	columns: 2;
+
+	& > div {
+		break-inside: avoid;
+		& * {
+			break-inside: avoid;
+		}
+	}
+	h1 + & {
+		margin-top: 0;
+	}
+}
+
+#jobs > div {
+	& h2 {
+		font-size: 12pt;
+	}
+}

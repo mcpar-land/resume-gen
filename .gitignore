@@ -1,0 +1,4 @@
+exports/**
+!exports/.gitkeep
+.env.local
+node_modules

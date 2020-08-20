@@ -1,4 +1,5 @@
 require('dotenv-flow').config()
+process.env.PUPPETEER_PRODUCT = 'firefox'
 const markdownIt = require('markdown-it')
 const htmlPdf = require('pdf-puppeteer')
 const handlebars = require('handlebars')
@@ -48,9 +49,14 @@ const mdToPdf = (inPath) => {
 	// htmlPdf.create(html).toFile(outPath, (err, res) => {
 	// 	console.log(`Exported ${res.filename}`)
 	// })
-	htmlPdf(html, (data) => {
-		fs.writeFileSync(`exports/${filename}.pdf`, data)
-	})
+	htmlPdf(
+		html,
+		(data) => {
+			fs.writeFileSync(`exports/${filename}.pdf`, data)
+		},
+		{},
+		{ product: 'firefox' }
+	)
 }
 
 mdToPdf('./source-files/resume.md', './exports/resume.pdf')

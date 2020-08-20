@@ -21,11 +21,13 @@
 
 ## Director of Curriculum, Code Ninjas
 
-Date and Month
+November 2019 - Present
 
-- One
-- Two
-- Three
+- Curriculum creation and teaching for a extracurricular learning center franchise serving 100+ students ages 8-14 supercalifragilisticexpialidocious supercalifragilisticexpialidocioussupercalifragilisticexpialidocioussupercalifragilisticexpialidocioussupercalifragilisticexpialidocious
+- Managing creation of curriculum covering Python, Javascript, Roblox, Arduino, TinkerCAD, Minecraft, and other subjects, and assigning classes to 20+ instructors with the skillsets to teach them.
+- Remotely teaching Javascript / HTML / CSS to classes from 10-15 students
+- Maintaining enrollment database and frontend with Google Cloud and Airtable, 100+ signups from existing clients each week
+- Privately tutoring high school students on Javascript and Node
 
 </div>
 
@@ -35,20 +37,17 @@ Date and Month
 
 June - July 2017, June - August 2019
 
-- First
-- Second
-- Third
+- Teaching Unreal Engine, Virtual Reality, and Autodesk Maya to students ages 13-18 at one of iD Tech's 3 largest camps (300+ students per week, class of 6-10 students each week)
 
 </div>
 
 <div>
 
-## Other Job
+## Freelance Web Development
 
-Date and Month
+October 2019 - Present
 
-- One bullet point here
-- Another bullet point around there
+- Contract work on various projects using Firebase, React, Stripe, Wordpress, and other services
 
 </div>
 
@@ -87,15 +86,19 @@ Self-Teaching, 2009 - Present
 
 # Projects
 
-Project One
+Shrike UI
 
-- A
-- B
+- Work-in-progress library of React UI components, inspired by Semantic UI and Material UI
+- Uses React, Typescript, styled-components, and Storybook.js
 
-Project Two
+Discord Bot
 
-- C
-- D
+- Full-stack creation and deployment of a Discord bot with a web dashboard, currently used on 70+ servers
+- Typescript, React, Prisma, Material UI, Discord.js
+
+Bevy Contributions
+
+- Contributions to the code and ecosystem of the 2020 open-source Rust game engine, Bevy
 
 </div>
 

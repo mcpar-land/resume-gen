@@ -69,10 +69,6 @@ August 2018
 
 # Education
 
-Strake Jesuit College Perparatory, Houston, 2014
-
-- AP Object-Oriented Programming
-
 University of Utah, 2019 - BFA, Game Design
 
 - Intro to Object-Oriented Programming, 2014

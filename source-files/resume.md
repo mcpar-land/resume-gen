@@ -6,10 +6,10 @@
 - SCSS / Sass / Less
 - Bootstrap / React Bootstrap
 - Material UI
-- Docker
 - Rust
 - Unity (C#)
 - Unreal Engine
+- Docker
 - Git / Github / Github Actions
 - Photoshop
 
@@ -23,10 +23,10 @@
 
 November 2019 - Present
 
-- Curriculum creation and teaching for a extracurricular learning center franchise serving 100+ students ages 8-14 supercalifragilisticexpialidocious supercalifragilisticexpialidocioussupercalifragilisticexpialidocioussupercalifragilisticexpialidocioussupercalifragilisticexpialidocious
+- Curriculum creation and teaching for a extracurricular learning center franchise serving 100+ students ages 8-14
 - Managing creation of curriculum covering Python, Javascript, Roblox, Arduino, TinkerCAD, Minecraft, and other subjects, and assigning classes to 20+ instructors with the skillsets to teach them.
 - Remotely teaching Javascript / HTML / CSS to classes from 10-15 students
-- Maintaining enrollment database and frontend with Google Cloud and Airtable, 100+ signups from existing clients each week
+- Maintaining enrollment database and frontend with [Google Cloud Functions](https://cloud.google.com/functions) and [Airtable](https://airtable.com/), 100+ signups from existing clients each week
 - Privately tutoring high school students on Javascript and Node
 
 </div>
@@ -48,6 +48,16 @@ June - July 2017, June - August 2019
 October 2019 - Present
 
 - Contract work on various projects using Firebase, React, Stripe, Wordpress, and other services
+
+</div>
+
+<div>
+
+## Internship, Tendenci
+
+August 2018
+
+- Responding to tickets and fixing HTML / CSS / Javscript for an open source AMS with over 1.4 million users
 
 </div>
 
@@ -76,20 +86,20 @@ University of Utah, 2019 - BFA, Game Design
 
 Self-Teaching, 2009 - Present
 
+# Certifications
+
+[Triplebyte Certified Frontend Engineering](https://triplebyte.com/certificate/XeScOdO)
+
 </div>
 
 <div>
-
-# Certifications
-
-- Triplebyte
 
 # Projects
 
 Shrike UI
 
-- Work-in-progress library of React UI components, inspired by Semantic UI and Material UI
-- Uses React, Typescript, styled-components, and Storybook.js
+- Work-in-progress [library of React UI components](https://github.com/mcpar-land/shrikeui), inspired by [Semantic UI](https://react.semantic-ui.com/) and [Material UI](https://material-ui.com/)
+- Uses React, Typescript, [styled-components](https://styled-components.com/), and [Storybook.js](https://storybook.js.org/)
 
 Discord Bot
 
@@ -98,7 +108,15 @@ Discord Bot
 
 Bevy Contributions
 
-- Contributions to the code and ecosystem of the 2020 open-source Rust game engine, Bevy
+- Contributions to the code and ecosystem of the 2020 open-source Rust game engine, [Bevy](https://bevyengine.org/)
+
+Vcfer
+
+- [Typescript library](https://github.com/mcpar-land/vcfer) for parsing the contents of vCard files
+
+Resume Generator
+
+- [Pipeline for generating](https://github.com/mcpar-land/resume-gen) this very resume and variants from markdown files
 
 </div>
 

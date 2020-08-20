@@ -46,9 +46,6 @@ const mdToPdf = (inPath) => {
 	console.log('Exporting to HTML...')
 	fs.writeFileSync(`exports/${filename}.html`, html)
 	console.log('Exporting to PDF...')
-	// htmlPdf.create(html).toFile(outPath, (err, res) => {
-	// 	console.log(`Exported ${res.filename}`)
-	// })
 	htmlPdf(
 		html,
 		(data) => {
@@ -59,4 +56,10 @@ const mdToPdf = (inPath) => {
 	)
 }
 
-mdToPdf('./source-files/resume.md', './exports/resume.pdf')
+fs.readdir('./source-files/', (err, files) => {
+	files.forEach((file) => {
+		console.log('======== ' + file)
+		mdToPdf('./source-files/' + file)
+	})
+	console.log('Done, all files converted')
+})

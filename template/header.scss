@@ -12,4 +12,8 @@
 
 #contact {
 	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 24mm;
 }

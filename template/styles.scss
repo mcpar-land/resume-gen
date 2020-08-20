@@ -9,6 +9,7 @@ body {
 	box-sizing: border-box;
 	font-size: 10pt;
 	hyphens: auto;
+	text-rendering: geometricPrecision;
 }
 
 body {
@@ -27,6 +28,9 @@ body {
 	h#{$i} {
 		font-family: 'Overpass Mono';
 		margin: 0;
+		&:not(:first-of-type) {
+			margin-top: 4mm;
+		}
 	}
 }
 
@@ -42,6 +46,7 @@ ul {
 
 p {
 	font-style: italic;
+	font-size: 11pt;
 }
 
 p:not(:first-of-type) {
@@ -55,7 +60,7 @@ ul {
 
 li {
 	hyphens: auto;
-	text-align: justify;
+	// text-align: justify;
 }
 
 li::before {

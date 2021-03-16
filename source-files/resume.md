@@ -1,6 +1,7 @@
 # Skills
 
 - React (HTML / CSS / Javascript)
+- Vue
 - Typescript
 - Node
 - SCSS / Sass / Less
@@ -47,7 +48,7 @@ June - July 2017, June - August 2019
 
 October 2019 - Present
 
-- Contract work on various projects using Firebase, React, Stripe, Wordpress, and other services
+- Contract work on various projects using Firebase, React, Stripe, Wordpress, Webflow, Squarespace and other services
 
 </div>
 
@@ -95,12 +96,12 @@ Self-Teaching, 2009 - Present
 Shrike UI
 
 - Work-in-progress [library of React UI components](https://github.com/mcpar-land/shrikeui), inspired by [Semantic UI](https://react.semantic-ui.com/) and [Material UI](https://material-ui.com/)
-- Uses React, Typescript, [styled-components](https://styled-components.com/), and [Storybook.js](https://storybook.js.org/)
+- React, Typescript, [styled-components](https://styled-components.com/), [Storybook.js](https://storybook.js.org/)
 
 Discord Bot
 
-- Full-stack creation and deployment of a Discord bot with a web dashboard, currently used on 70+ servers
-- Typescript, React, Prisma, Material UI, Discord.js
+- Full-stack creation and deployment of the Discord bot with a web dashboard, currently used on 200+ servers
+- Typescript, React, Vue, Prisma, Material UI, Discord.js, and Google Cloud Platform
 
 Bevy Contributions
 

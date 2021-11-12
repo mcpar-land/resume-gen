@@ -12,7 +12,7 @@
 		"handlebars": "^4.7.6",
 		"hyphenopoly": "^4.7.0",
 		"markdown-it": "^11.0.0",
-		"node-sass": "^4.14.1",
+		"node-sass": "^5.0.0",
 		"nodemon": "^2.0.4",
 		"pdf-puppeteer": "^1.1.10",
 		"prettier": "^2.0.5",

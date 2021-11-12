@@ -117,7 +117,7 @@ Vcfer
 
 Resume Generator
 
-- [Pipeline for generating](https://github.com/mcpar-land/resume-gen) this very resume and variants from markdown files
+- [Pipeline for generating](https://github.com/mcpar-land/resume-gen) this very resume
 
 </div>
 

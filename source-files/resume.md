@@ -93,10 +93,14 @@ Self-Teaching, 2009 - Present
 
 # Projects
 
-Shrike UI
+Ivory
 
-- Work-in-progress [library of React UI components](https://github.com/mcpar-land/shrikeui), inspired by [Semantic UI](https://react.semantic-ui.com/) and [Material UI](https://material-ui.com/)
-- React, Typescript, [styled-components](https://styled-components.com/), [Storybook.js](https://storybook.js.org/)
+- Work in progress [functional programming language](https://github.com/mcpar-land/ivory) written in pure Rust, centered around evaluating complex dice rolls for tabletop games like Dungeons and Dragons
+
+Gouge, Discord Bot Library
+
+- [Ergonomic, open source Node.js library](https://github.com/mcpar-land/gouge) for creating Discord bots powered by Discord's new Interactions API
+- Full Github Actions CI/CD for running unit tests, generating documentation, and publishing to NPM
 
 Discord Bot
 

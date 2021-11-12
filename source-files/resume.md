@@ -105,7 +105,7 @@ Gouge, Discord Bot Library
 Discord Bot
 
 - Full-stack creation and deployment of the Discord bot with a web dashboard, currently used on 200+ servers
-- Typescript, React, Vue, Prisma, Material UI, Discord.js, and Google Cloud Platform
+- Typescript, React, Vue, Rust, MongoDB, Prisma, Material UI, Discord.js, and Google Cloud Platform
 
 Bevy Contributions
 
